@@ -10,7 +10,7 @@ A small ledger for the things people say that should stick: decisions, commitmen
      receipt: Jan 12, 2026 · founder: "And we never discount"
 ```
 
-Zero dependencies. Node 18+. TypeScript.
+Zero dependencies. Node 20+. TypeScript.
 
 ```
 npm i quoteback
