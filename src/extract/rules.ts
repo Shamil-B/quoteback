@@ -72,7 +72,6 @@ export const defaultRules: Rule[] = [
     kind: "commitment",
     pattern: new RegExp(`\\bI(?:'ll| will)\\s+([^.,;]{3,60}?)\\s+by\\s+${WHEN}\\b`, "i"),
     value: (c) => c.toLowerCase().trim(),
-    due: (_c, msg) => undefined,
   },
 ];
 
