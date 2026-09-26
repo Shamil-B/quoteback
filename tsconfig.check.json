@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": ".",
+    "paths": { "quoteback": ["./src/index.ts"] }
+  },
+  "include": ["src", "test", "examples"]
+}

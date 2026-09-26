@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.check.json",
     "test": "node --import tsx --test test/*.test.ts",
     "demo": "node --import tsx src/cli.ts demo",
     "prepublishOnly": "npm run build && npm test"
