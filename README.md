@@ -51,7 +51,8 @@ r.contradictions[0].previous.quote; // "We never discount"
 r.contradictions[0].previous.at;    // "2026-01-12T09:00:00Z"
 
 ledger.conflicts();                    // still open until you resolve it
-ledger.supersede(newId, oldId, "annual deals are the exception"); // resolve on purpose
+const { current, previous } = r.contradictions[0];
+ledger.supersede(current.id, previous.id, "annual deals are the exception"); // resolve on purpose
 ```
 
 Put receipts in front of the agent:
