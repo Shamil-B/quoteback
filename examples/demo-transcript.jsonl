@@ -1,0 +1,6 @@
+{"id":"m1","speaker":"founder","at":"2026-01-12T09:10:00Z","text":"Pricing is settled. $29/mo, card up front, no free tier. And we never discount. Discounts train people to wait for the sale."}
+{"id":"m2","speaker":"founder","at":"2026-01-20T14:02:00Z","text":"Ship it on Tuesday. I'll write the launch note by Friday, keep it short."}
+{"id":"m3","speaker":"founder","at":"2026-02-03T11:45:00Z","text":"Going with postgres for the ledger. sqlite can't do the row level stuff we need."}
+{"id":"m4","speaker":"founder","at":"2026-03-03T16:20:00Z","text":"Halcyon wants an annual deal. Give them 30% off, it's a big logo and I want it on the site."}
+{"id":"m5","speaker":"founder","at":"2026-03-10T10:00:00Z","text":"Actually, let's move new signups to $49/mo. Beta members keep what they have."}
+{"id":"m6","speaker":"founder","at":"2026-03-11T18:30:00Z","text":"I'll ship the migration runbook by Monday. No excuses this time."}
