@@ -1,5 +1,9 @@
 # quoteback
 
+[![ci](https://github.com/Shamil-B/quoteback/actions/workflows/ci.yml/badge.svg)](https://github.com/Shamil-B/quoteback/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/quoteback)](https://www.npmjs.com/package/quoteback)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 Memory for AI agents that quotes you back.
 
 A small ledger for the things people say that should stick: decisions, commitments, stances, facts. Every entry carries a verbatim quote from the message it came from, and the library refuses to store anything it can't find in the original text. When a new position contradicts an old one, you get both, with dates.
