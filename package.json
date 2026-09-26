@@ -1,0 +1,65 @@
+{
+  "name": "quoteback",
+  "version": "0.1.0",
+  "description": "Memory for AI agents that quotes you back. A ledger of decisions, commitments and stances where every entry carries a verbatim quote, and contradictions get caught.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "quoteback": "./bin/quoteback.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "examples/demo-transcript.jsonl",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test test/*.test.ts",
+    "demo": "node --import tsx src/cli.ts demo",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "memory",
+    "llm",
+    "provenance",
+    "receipts",
+    "contradiction",
+    "ledger"
+  ],
+  "author": {
+    "name": "Shamil Bedru",
+    "email": "shamil.bedru.hassen@gmail.com",
+    "url": "https://github.com/Shamil-B"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Shamil-B/quoteback#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shamil-B/quoteback"
+  },
+  "bugs": {
+    "url": "https://github.com/Shamil-B/quoteback/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
