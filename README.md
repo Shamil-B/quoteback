@@ -153,6 +153,6 @@ Vector search, cross-session summarisation, entity resolution, anything with a n
 npm test
 ```
 
-24 tests on `node:test`. Covers verbatim enforcement, contradiction detection, acknowledged reversals, supersede chains, recall ranking, due dates, context budgeting and JSON round trips.
+Tests run on `node:test` and cover verbatim enforcement, contradiction detection, acknowledged reversals, supersede chains, recall ranking, due dates, context budgeting and JSON round trips.
 
 MIT.
